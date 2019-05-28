@@ -1,0 +1,510 @@
+<!-- LISTENERS -->
+<listeners>
+	<listener
+		class-name="br.com.stratus.cx.commons.InvokedMethodListener" />
+	<listener
+		class-name="br.com.stratus.cx.utils.AnnotationTransformer" />
+</listeners>
+
+<!-- MODULOS DE ATENDIMENTO -->
+<test name="Aba Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.atendimentos.AbaAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Assunto">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.atendimentos.AssuntoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Fila de Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.atendimentos.FilaDeAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Grupo de Atendente">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.atendimentos.GrupoDeAtendenteTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Grupo de Monitoramento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.atendimentos.GrupoMonitoramentoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Grupo de Mensagens">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.atendimentos.GruposDeMensagensTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Tela de Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.atendimentos.TelaAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+<!-- MODULOS DE CONFIGURACOES GERAIS -->
+<test name="Acoes">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.AcoesTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Atividade">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.AtividadeTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Avisos">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.AvisosTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Canal de Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.confgerais.CanalDoAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Cliente">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.ClienteTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Dashboard">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.DashboardTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Documentos">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.DocumentosTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Feriado">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.FeriadoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Fluxo">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.FluxoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Formulario">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.FormularioTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Grupo De Campos Extra">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.confgerais.GrupoDeCamposExtraTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Horario de Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.confgerais.HorarioAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Integracao com o cliente">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.confgerais.IntegracaoComClienteTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Localidade">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.LocalidadeTest">
+		</class>
+	</classes>
+</test>
+
+<test name="LogIn">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.LogInTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Motivo">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.MotivoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Regiao">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.RegiaoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Script de Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.ScriptAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Tipo de Cliente">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.TipoClienteTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Tipo de Ocorrencia">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.confgerais.TipoOcorrenciaTest">
+		</class>
+	</classes>
+</test>
+
+<!-- MODULOS DE DIGIDESK -->
+<test name="Alerta">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.digidesk.AlertaTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Classificacao">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.digidesk.ClassificacaoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Formulario Web">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.digidesk.FormularioWebTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Funcoes">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.digidesk.FuncoesTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Grupo De Solucao">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.digidesk.GrupoSolucaoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Inventario">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.digidesk.InventarioTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Pacote SLA">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.digidesk.PacoteSlaTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Tipo De Produto Ou Servico">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.digidesk.TipoDeProdutoOuServicoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Padronizacao de Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class
+			name="br.com.stratus.cx.digidesk.PadronizacaoAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+
+<!-- MODULOS DE MONITORIA DE QUALIDADE -->
+<test name="Qualificacao de Atendimento">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.monitoriadequalidade.QualificacaoDeAtendimentoTest">
+		</class>
+	</classes>
+</test>
+
+<!-- MODULOS DE RDSTATION -->
+<test name="Campanha">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.rdstation.CampanhaTest">
+		</class>
+	</classes>
+</test>
+
+<!-- MODULOS DE SALES FORCE -->
+<test name="Campanha De Vendas">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.CampanhaDeVendasTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Carteira de Clientes">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.CarteiraClientesTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Catalogo Produtos">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.CatalogoProdutosTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Contatos">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.ContatosTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Equipes De Vendas">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.EquipesDeVendasTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Fabricante">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.FabricanteTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Fases Da Proposta">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.FasesDaPropostaTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Fornecedor">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.FornecedorTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Grupo Produtos Servicos">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.GrupoProdutosServicosTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Lead">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.LeadTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Metas">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.MetasTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Oportunidades">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.OportunidadesTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Parceria">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.ParceriaTest">
+		</class>
+	</classes>
+</test>
+
+<!--
+<test name="Processos">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.ProcessosTest">
+		</class>
+	</classes>
+</test>
+-->
+
+<test name="Propostas">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.PropostaTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Situacao Do Lead">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.SituacaoDoLeadTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Taxas e Impostos">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.TaxasImpostosTest">
+		</class>
+	</classes>
+</test>
+
+<!--
+<test name="Tipo de Proposta">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.salesforce.TipoDePropostaTest">
+		</class>
+	</classes>
+</test>
+-->
+
+<!-- MODULOS DE USUARIOS -->
+<test name="Nivel Hierarquico">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.usuarios.NivelHierarquicoTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Perfil">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.usuarios.PerfilTest">
+		</class>
+	</classes>
+</test>
+
+<test name="SetorTest">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.usuarios.SetorTest">
+		</class>
+	</classes>
+</test>
+
+<test name="Usuario">
+	<parameter name="browser" value="&browser;" />
+	<classes>
+		<class name="br.com.stratus.cx.usuarios.UsuarioTest">
+		</class>
+	</classes>
+</test>

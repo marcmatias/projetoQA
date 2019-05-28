@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" [
+<!ENTITY tests SYSTEM "src/test/resources/TestSuites/Includes/TestsMinimalSuite">
+<!ENTITY browser "firefox-headless">
+<!ENTITY thread-count "1">
+<!ENTITY name "MnnimalTestSuiteFirefox">
+<!ENTITY verbose "2">
+<!ENTITY parallel "tests">
+]>
+<suite thread-count="&thread-count;" name="&name;" verbose="&verbose;"
+	parallel="&parallel;">
+	
+	&tests;
+
+</suite>

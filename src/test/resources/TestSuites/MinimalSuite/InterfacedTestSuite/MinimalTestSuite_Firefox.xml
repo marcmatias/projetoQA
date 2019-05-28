@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" [
+<!ENTITY tests SYSTEM "src/test/resources/TestSuites/Includes/TestsMinimalSuite">
+<!ENTITY browser "firefox">
+<!ENTITY thread-count "1">
+<!ENTITY name "MinimalTestSuiteChrome">
+<!ENTITY verbose "1">
+<!ENTITY parallel "tests">
+<!ENTITY thread-countTest "1">
+<!ENTITY parallelTest "methods">
+]>
+<suite thread-count="&thread-count;" name="&name;" verbose="&verbose;"
+	parallel="&parallel;">
+	
+	&tests;
+
+</suite>

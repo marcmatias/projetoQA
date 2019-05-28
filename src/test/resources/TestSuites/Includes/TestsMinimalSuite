@@ -1,0 +1,67 @@
+<!-- LISTENERS -->
+<listeners>
+  <listener
+    class-name="br.com.ecomanager.commons.InvokedMethodListener" />
+  <listener
+    class-name="br.com.ecomanager.utils.AnnotationTransformer" />
+</listeners>
+
+<test name="ConsumoTest1">
+   	<parameter name="browser" value="&browser;" />
+    <parameter name="estabelecimento" value="Unipe"/>
+	<parameter name="predio" value="EVA"/>
+	<parameter name="sala" value="275"/>
+	<parameter name="kwh" value="1200"/>	
+   	<classes>
+       <class name="br.com.ecomanager.consumos.ConsumoTest">
+       </class>
+   	</classes>
+</test>
+
+<test name="ConsumoTest2">
+   	<parameter name="browser" value="&browser;" />
+    <parameter name="estabelecimento" value="UFPB"/>
+	<parameter name="predio" value="CCHLA"/>
+	<parameter name="sala" value="500"/>
+	<parameter name="kwh" value="1333"/>	
+   	<classes>
+       <class name="br.com.ecomanager.consumos.ConsumoTest">
+       </class>
+   	</classes>
+</test>
+
+<test name="ConsumoTest3" >
+   	<parameter name="browser" value="&browser;" />
+    <parameter name="estabelecimento" value="Unipe"/>
+	<parameter name="predio" value="EVA"/>
+	<parameter name="sala" value="275"/>
+	<parameter name="kwh" value="1400"/>	
+   	<classes>
+       <class name="br.com.ecomanager.consumos.ConsumoTest">
+       </class>
+   	</classes>
+</test>
+
+<test name="ConsumoTest4">
+   	<parameter name="browser" value="&browser;" />
+    <parameter name="estabelecimento" value="UFPB"/>
+	<parameter name="predio" value="CCHLA"/>
+	<parameter name="sala" value="500"/>
+	<parameter name="kwh" value="1222"/>	
+   	<classes>
+       <class name="br.com.ecomanager.consumos.ConsumoTest">
+       </class>
+   	</classes>
+</test>
+
+<test name="ConsumoTest5" >
+   	<parameter name="browser" value="&browser;" />
+    <parameter name="estabelecimento" value="Unipe"/>
+	<parameter name="predio" value="EVA"/>
+	<parameter name="sala" value="275"/>
+	<parameter name="kwh" value="1444"/>	
+   	<classes>
+       <class name="br.com.ecomanager.consumos.ConsumoTest">
+       </class>
+   	</classes>
+</test>

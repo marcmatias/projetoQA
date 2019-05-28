@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test SYSTEM "http://testng.org/testng-1.0.dtd" [
+<!ENTITY tests SYSTEM "src/test/resources/TestSuites/Includes/TestsFullSuite">
+<!ENTITY browser "firefox">
+<!ENTITY thread-count "4">
+<!ENTITY name "FullTestSuite_Firefox">
+<!ENTITY verbose "2">
+<!ENTITY parallel "tests">
+]>
+
+<suite thread-count="&thread-count;" name="&name;" verbose="&verbose;"
+	parallel="&parallel;">
+
+	&tests;
+
+</suite>
